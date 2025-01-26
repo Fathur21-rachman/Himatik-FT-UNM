@@ -1,24 +1,29 @@
 .banner {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("img/banner.jpg");
-    background-size: cover;
-    background-position: center;
-  }
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
-  .banner-content {
-    height: 100vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.banner-content {
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-  }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
-  .dropdown-menu {
-    margin-top: 0;
-    transition: all 0.5s ease-in-out;
-  }
+.dropdown-menu {
+  margin-top: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel-containt {
+  background-color: black;
+  color: white;
+}
