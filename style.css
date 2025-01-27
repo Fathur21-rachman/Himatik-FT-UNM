@@ -31,3 +31,19 @@
 .blackquote{
   height: 50vh;
 }
+
+.font-wlcm{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.font-hmtk{
+  font-family: Verdana;
+  text-decoration:double;
+  text-align: center;
+  color: red;
+}
+
+.font-family{
+  font-family:'Arial Narrow Bold';
+}
