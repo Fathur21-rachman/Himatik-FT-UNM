@@ -10,6 +10,7 @@
     />
 
     <title>HIMATIK FT-UNM</title>
+    <link rel="icon" href="img/icon.png" type="image/png" />
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -227,31 +228,43 @@
     <!-- END of Carousel Slider Struktur Sekarang -->
 
     <!-- Blackquote Ketum -->
-    <div class="container-fluid bg-light text-dark">
-      <div
-        class="container blackquote d-flex justify-content-center align-items-center text-center"
-        style="min-height: 200px"
-      >
-        <figure class="text-center">
-          <blockquote
-            class="blockquote"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              dicta molestiae dolores cum laudantium recusandae eligendi illo
-              suscipit atque optio..
-            </p>
-          </blockquote>
-          <figcaption
-            class="blockquote-footer"
-            data-aos="zoom-in"
-            data-aos-duration="2500"
-          >
-            Apping <cite title="Source Title">Ketua Umum HIMATIK FT-UNM</cite>
-          </figcaption>
-        </figure>
+    <div class="container-fluid bg-light text-dark py-5">
+      <div class="container d-flex justify-content-center align-items-center">
+        <!-- Gambar -->
+        <div class="me-1" data-aos="fade-right" data-aos-duration="1500">
+          <img
+            src="img/Ketum.png"
+            alt="Ketum"
+            style="max-width: 200px; height: auto; border-radius: 10px"
+          />
+        </div>
+
+        <!-- Blackquote -->
+        <div
+          class="blockquote-container d-flex justify-content-center align-items-center text-center"
+          style="min-height: 200px"
+        >
+          <figure class="text-center">
+            <blockquote
+              class="blockquote"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <p>
+                HIMATIK FT-UNM Kuasai Teknologi, Kuasai Peradaban. We Are the
+                Champions!
+              </p>
+            </blockquote>
+            <figcaption
+              class="blockquote-footer"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
+              Muhammad Alfin Muammar
+              <cite title="Source Title">- Ketua Umum HIMATIK FT-UNM</cite>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </div>
     <!-- END of Blackquote Ketum -->
@@ -350,50 +363,132 @@
               </div>
             </div>
           </div>
+          <div class="col-3" style="padding-top: 10px">
+            <div
+              class="card"
+              style="width: 17rem"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img src="img/G1.jpg" class="card-img-top" alt="Nothing" />
+              <div class="card-body">
+                <h5 class="card-title">Coming Soon</h5>
+                <h10>Rp.X000</h10>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing..
+                </p>
+                <a href="#" class="btn btn-primary">Pesan</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- END of Card Merch -->
 
+    <!-- Jurnal JICEE -->
+    <div class="container-fluid bg-light text-dark py-5">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <!-- Teks di atas gambar -->
+        <h2
+          class="mb-4 text-center"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          Jurnal Kami
+        </h2>
+        <!-- Gambar -->
+        <div class="me-1" data-aos="fade-right" data-aos-duration="1500">
+          <a href="https://journal.unm.ac.id/index.php/JICEE" target="_blank">
+            <img
+              src="img/JICEE.png"
+              alt="Ketum"
+              style="
+                max-width: 80%;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                margin: 0 auto;
+                display: block;
+              "
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- END of Jurnal JICEE -->
+
     <!-- Form BOA -->
-    <div class="container-fluid py-5 bg-light text-dark">
+    <div
+      class="container-fluid py-5 bg-dark text-light"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div class="container">
-        <h3 class="text-center mb-4">BOX of ASPIRATION</h3>
-        <p class="text-center mb-5">
+        <h3 class="text-center mb-2">BOX of ASPIRATION</h3>
+        <p class="text-center mb-3">
           Berikan saran dan kritik anda kepada kami
         </p>
-        <form action="send_email.php" method="POST">
-          <div class="mb-3">
-            <label for="emailInput" class="form-label">Email:</label>
-            <input
-              type="email"
-              class="form-control"
-              id="emailInput"
-              name="email"
-              autocomplete="off"
-              placeholder="name@example.com"
-              required
-            />
+
+        <!-- Form -->
+        <form
+          action="https://formspree.io/f/xrbeplzg"
+          method="POST"
+          class="mx-auto"
+          style="max-width: 600px"
+        >
+          <!-- Row for Name and Email -->
+          <div class="row mb-3">
+            <!-- Name Field -->
+            <div class="col-md-6">
+              <label for="name" class="form-label">Nama :</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                placeholder="Masukkan nama anda"
+                required
+              />
+            </div>
+            <!-- Email Field -->
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email :</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
           </div>
+
+          <!-- Message Field -->
           <div class="mb-3">
-            <label for="messageInput" class="form-label"
-              >Saran atau Kritik:</label
-            >
+            <label for="message" class="form-label">Pesan Anda :</label>
             <textarea
-              class="form-control"
-              id="messageInput"
+              id="message"
               name="message"
-              rows="3"
+              class="form-control"
+              rows="5"
+              placeholder="Masukkan pesan anda disini..."
               required
             ></textarea>
           </div>
-          <div class="mb-3">
-            <button type="submit" class="btn btn-primary">Kirim</button>
+
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary px-4 py-2">
+              Kirim
+            </button>
           </div>
         </form>
       </div>
     </div>
-
     <!-- END of Form BOA -->
 
     <!-- FOOTER -->
